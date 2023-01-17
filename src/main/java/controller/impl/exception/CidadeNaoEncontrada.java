@@ -1,2 +1,5 @@
-package controller.impl.exception;public class CidadeNaoEncontrada {
+package controller.impl.exception;
+
+public class CidadeNaoEncontrada extends RuntimeException{
+
 }
